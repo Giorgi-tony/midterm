@@ -1,0 +1,9 @@
+html{
+  background-color: blueviolet;
+}
+.burger{
+  width: 26px;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0;
+}
