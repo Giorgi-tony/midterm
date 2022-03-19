@@ -20,8 +20,6 @@ a{
 .sidebar{
   background-color: #222222;
   width: 319px;
-  height: 1080px;
-  max-height: 100%;
 }
 .sidebar-top{
   display: flex;
@@ -31,7 +29,6 @@ a{
   margin-top: 42px;
 }
 h1{
-  /*margin-top: 42px;*/
   line-height: 32px;
   font-size: 24px;
   color: #FFFFFF;
@@ -50,6 +47,8 @@ aside{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  height: 100%;
 }
 .side-nav{
   margin-top: 90px;
@@ -102,6 +101,7 @@ aside{
   color: #FFFFFF;
   font-size: 14px;
   line-height: 19px;
+  margin-left: 30px;
 }
 
 
@@ -109,4 +109,47 @@ aside{
 
 header{
   display: inline-block;
+  margin-left: 344px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 91px;
+}
+#searchbar{
+  width: 446px;
+  height: 56px;
+}
+.header-buttons{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.gopro{
+  margin-right: 30px;
+  line-height: 19px;
+  font-size: 14px;
+  color: #FF2288;
+}
+.inboxicon{
+  margin-right: 30px;
+  width: 24px;
+}
+.notificon{
+  margin-right: 30px;
+  width: 24px;
+}
+.profileicon{
+  margin-right: 30px;
+  width: 56px;
+}
+#upload{
+  color: #FFFFFF;
+  line-height: 19px;
+  font-size: 14px;
+  background-color: #FF2288;
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
 }
