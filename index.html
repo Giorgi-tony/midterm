@@ -107,155 +107,193 @@
 			<button type="button" id="upload">UPLOAD</button>
 		</div>
 	</header>
-	<div class="topnav">
-		<nav>
-			<ul class="topnav-left">
-				<li>
-					<a href="#">
-						All
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						Web design
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						3D
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						App design
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						Animation
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						Illustration
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						Typography
-					</a>
-				</li>
-			</ul>
-			<img src="images/filter.png" alt="filter">
-			<span>Filters</span>
-		</nav>
+	<div class="container">
+		<div class="topnav">
+			<nav class="topnav-box">
+				<ul class="topnav-left">
+					<li class="topnav-listitem" id="topnav-itemone">
+						<a href="#">
+							All
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							Web design
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							3D
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							App design
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							Animation
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							Illustration
+						</a>
+					</li>
+					<li class="topnav-listitem">
+						<a href="#">
+							Typography
+						</a>
+					</li>
+				</ul>
+				<button type="button" id="filters">
+					<img src="images/filter.png" alt="filter" class="filtericon">
+					<span>Filters</span>
+				</button>
+			</nav>
+		</div>
+		<section class="gallery">
+			<div class="gallerybox">
+				<div class="galleryrow">
+					<img src="images/gallery1.png" alt="gallery1" class="galleryimg">
+					<span>UI Components for Unity Gaming</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery2.png" alt="gallery2" class="galleryimg">
+					<span>Analytics Mobile App – Blurr Series</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery3.png" alt="gallery3" class="galleryimg">
+					<span>Estaro – Dark-mode – Task Management App</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery4.png" alt="gallery4" class="galleryimg">
+					<span>Live streaming application for gamers.</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery5.png" alt="gallery5" class="galleryimg">
+					<span>Dark Mockup for Unity Gaming</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery6.png" alt="gallery6" class="galleryimg">
+					<span>SMM – Social Media Management – App UI</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery7.png" alt="gallery7" class="galleryimg">
+					<span>Food App 2.0</span>
+				</div>
+				<div class="galleryrow">
+					<img src="images/gallery8.png" alt="gallery8" class="galleryimg">
+					<span>Live streaming application for gamers.</span>
+				</div>
+			</div>
+			<button type="button" id="galleryload">Load more</button>
+		</section>
+		<section class="topDesigners">
+			<h2 class="topDesignerstitle">Top Designers</h2>
+			<div class="designerlist">
+				<div class="topdesitem">
+					<img src="images/tranbig.png" alt="tran mau tri tam" class="designericon">
+					<span class="designerName">Tran Mau Tri Tam</span>
+					<span class="location">Sai Gon, Vietnam</span>
+					<button type="button" id="followerstatus">Following</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/ghulam.png" alt="Ghulam Rasool" class="designericon">
+					<span class="designerName">Ghulam Rasool</span>
+					<span class="location">Dubai</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/zhenya.png" alt="Zhenya Rynzhuk" class="designericon">
+					<span class="designerName">Zhenya Rynzhuk</span>
+					<span class="location">New York City, NY</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/ghanibig.png" alt="Ghani Pradita" class="designericon">
+					<span class="designerName">Ghani Pradita</span>
+					<span class="location">Yogyakarta, Indonesia</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/sajonbig.png" alt="Sajon" class="designericon">
+					<span class="designerName">Sajon</span>
+					<span class="location">Earth</span>
+					<button type="button" id="followerstatus">Following</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/davidbig.png" alt="David Kovalev" class="designericon">
+					<span class="designerName">David Kovalev</span>
+					<span class="location">Sarasota, FL</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/ryanbig.png" alt="Ryan Putnam" class="designericon">
+					<span class="designerName">Ryan Putnam</span>
+					<span class="location">Colorado Springs</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+				<div class="topdesitem">
+					<img src="images/dmitry.png" alt="Dmitry Lauretsky" class="designericon">
+					<span class="designerName">Dmitry Lauretsky</span>
+					<span class="location">Omsk, Russia</span>
+					<button type="button" id="followerstatus">Follow</button>
+				</div>
+			</div>		
+		</section>
+		<footer>
+			<div>
+				<h3 class="footertitle">For designers</h3>
+				<ul class="footerlist">
+					<li>Go Pro!</li>
+					<li>Explore design work</li>
+					<li>Design blog</li>
+					<li>Overtime podcast</li>
+					<li>Dribble meetups</li>
+					<li>Playoffs</li>
+					<li>Weekly Warm-Up</li>
+					<li>Code of conduct</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="footertitle">Hire designers</h3>
+				<ul class="footerlist">
+					<li>Post a job opening</li>
+					<li>Post a freelance project</li>
+					<li>Search for designers</li>
+					<li>Brands</li>
+					<li>Advertise with us</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="footertitle">Company</h3>
+				<ul class="footerlist">
+					<li>About</li>
+					<li>Careers</li>
+					<li>Support</li>
+					<li>Media kit</li>
+					<li>Dribble shop</li>
+					<li>Testimonials</li>
+					<li>API</li>
+					<li>Terms of service</li>
+					<li>Privacy policy</li>
+				</ul>
+			</div>
+			<div>
+				<h3 class="footertitle">Directories</h3>
+				<ul class="footerlist">
+					<li>Top designers</li>
+					<li>Top design teams</li>
+					<li>Design jobs</li>
+					<li>Tags</li>
+					<li>Places</li>
+					<li>Design assets</li>
+					<li>Shop Creative Market</li>
+				</ul>
+			</div>
+		</footer>
 	</div>
-	<section class="gallery">
-		<img src="images/gallery1.png" alt="gallery1">
-		<span>UI Components for Unity Gaming</span>
-		<img src="images/gallery2.png" alt="gallery2">
-		<span>Analytics Mobile App – Blurr Series</span>
-		<img src="images/gallery3.png" alt="gallery3">
-		<span>Estaro – Dark-mode – Task Management App</span>
-		<img src="images/gallery4.png" alt="gallery4">
-		<span>Live streaming application for gamers.</span>
-		<img src="images/gallery5.png" alt="gallery5">
-		<span>Dark Mockup for Unity Gaming</span>
-		<img src="images/gallery6.png" alt="gallery6">
-		<span>SMM – Social Media Management – App UI</span>
-		<img src="images/gallery7.png" alt="gallery7">
-		<span>Food App 2.0</span>
-		<img src="images/gallery8.png" alt="gallery8">
-		<span>Live streaming application for gamers.</span>
-		<button type="button">Load more</button>
-	</section>
-	<section class="topDesigners">
-		<h2>Top Designers</h2>
-		<div>
-			<img src="images/tranbig.png" alt="tran mau tri tam">
-			<span class="designerName">Tran Mau Tri Tam</span>
-			<span>Sai Gon, Vietnam</span>
-			<button type="button">Following</button>
-			<img src="images/ghulam.png" alt="Ghulam Rasool">
-			<span class="designerName">Ghulam Rasool</span>
-			<span>Dubai</span>
-			<button type="button">Follow</button>
-			<img src="images/zhenya.png" alt="Zhenya Rynzhuk">
-			<span class="designerName">Zhenya Rynzhuk</span>
-			<span>New York City, NY</span>
-			<button type="button">Follow</button>
-			<img src="images/ghanibig.png" alt="Ghani Pradita">
-			<span class="designerName">Ghani Pradita</span>
-			<span>Yogyakarta, Indonesia</span>
-			<button type="button">Follow</button>
-			<img src="images/sajonbig.png" alt="Sajon">
-			<span class="designerName">Sajon</span>
-			<span>Earth</span>
-			<button type="button">Following</button>
-			<img src="images/davidbig.png" alt="David Kovalev">
-			<span class="designerName">David Kovalev</span>
-			<span>Sarasota, FL</span>
-			<button type="button">Follow</button>
-			<img src="images/ryanbig.png" alt="Ryan Putnam">
-			<span class="designerName">Ryan Putnam</span>
-			<span>Colorado Springs</span>
-			<button type="button">Follow</button>
-			<img src="images/dmitry.png" alt="Dmitry Lauretsky">
-			<span class="designerName">Dmitry Lauretsky</span>
-			<span>Omsk, Russia</span>
-			<button type="button">Follow</button>
-		</div>		
-	</section>
-	<footer>
-		<div>
-			<h2>For designers</h2>
-			<ul>
-				<li>Go Pro!</li>
-				<li>Explore design work</li>
-				<li>Design blog</li>
-				<li>Overtime podcast</li>
-				<li>Dribble meetups</li>
-				<li>Playoffs</li>
-				<li>Weekly Warm-Up</li>
-				<li>Code of conduct</li>
-			</ul>
-		</div>
-		<div>
-			<h2>Hire designers</h2>
-			<ul>
-				<li>Post a job opening</li>
-				<li>Post a freelance project</li>
-				<li>Search for designers</li>
-				<li>Brands</li>
-				<li>Advertise with us</li>
-			</ul>
-		</div>
-		<div>
-			<h2>Company</h2>
-			<ul>
-				<li>About</li>
-				<li>Careers</li>
-				<li>Support</li>
-				<li>Media kit</li>
-				<li>Dribble shop</li>
-				<li>Testimonials</li>
-				<li>API</li>
-				<li>Terms of service</li>
-				<li>Privacy policy</li>
-			</ul>
-		</div>
-		<div>
-			<h2>Directories</h2>
-			<ul>
-				<li>Top designers</li>
-				<li>Top design teams</li>
-				<li>Design jobs</li>
-				<li>Tags</li>
-				<li>Places</li>
-				<li>Design assets</li>
-				<li>Shop Creative Market</li>
-			</ul>
-		</div>
-	</footer>
 </body>
 </html>
