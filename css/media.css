@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .Followers{
+    display: none;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .sidenav-comp{
+    display: inline-flex;
+  }
+  header{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #searchbar{
+    width: 100%;
+  }
+  .container{
+    padding-left: 10px;
+  }
+  #filters{
+    display: none;
+  }
+  #galleryload{
+   display: none;
+  }
+  .topnav-left{
+    align-items: center;
+  }
+  .topnav-listitem{
+    padding-top: 10px;
+  }
+  .footerlist{
+    display: none;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .footerblocks{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  table{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  }
